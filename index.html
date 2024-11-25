@@ -111,6 +111,37 @@
         bottom: 0;
         width: 100%;
       }
+      #gallery {
+        text-align: center;
+        margin: 20px;
+      }
+
+      #gallery h1 {
+        font-family: Arial, sans-serif;
+        color: #333;
+      }
+
+      #gallery p {
+        font-family: "Georgia", serif;
+        color: #555;
+        font-size: 1.1em;
+        max-width: 800px;
+        margin: 0 auto 20px;
+      }
+
+      #gallery img {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        object-fit: cover;
+      }
+
+      #gallery img:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+      }
 
       form input,
       form button {
@@ -157,6 +188,7 @@
       <img src="profile.jpg" alt="Profile Image" />
       <a href="#home">Home</a>
       <a href="#about">About Me</a>
+      <a href="#gallery">Gallery</a>
       <a href="#story">My Story</a>
       <a href="#contact">Contact</a>
     </div>
@@ -192,6 +224,20 @@
           constantly looking for new opportunities to grow and build my career
           as a software developer.
         </p>
+      </section>
+
+      <section id="gallery">
+        <h1>Gallery</h1>
+        <p>
+          Welcome to my gallery! Here, I showcase some of my projects, designs,
+          and photos that represent my journey and creativity. Feel free to
+          explore and see how I express my skills and passions through various
+          images.
+        </p>
+        <img src="pp.jpg" alt="Profile Image" />
+        <img src="tt.jpg" alt="Profile Image" />
+        <img src="aa.jpg" alt="Profile Image" />
+        <img src="bb.jpg" alt="Profile Image" />
       </section>
 
       <section id="story">
